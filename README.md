@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Portfolio
+
+Small website using React used as a portfolio.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
