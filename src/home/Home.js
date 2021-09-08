@@ -6,7 +6,9 @@ function Home() {
   return (
     <div className="Home">
       <p>HELLO !!!!!!</p>
-      <Shell/>
+      <div className="ShellContainer">
+        <Shell/>
+      </div>
     </div>
   );
 }

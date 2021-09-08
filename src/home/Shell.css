@@ -3,3 +3,8 @@
   background-color: black;
   color: greenyellow;
 }
+
+.Display {
+  height: 400px;
+  overflow: hidden;
+}
