@@ -1,0 +1,19 @@
+.Whoami {
+    padding-top: 50px;
+    background-color: rgb(245, 243, 238);
+}
+
+.whoamiImg {
+    padding: 20px;
+}
+
+.mainPrez {
+    display: flex;
+    width: 50%;
+    margin: 40px auto;
+}
+
+.mainPrez p {
+    padding-top: 20px;
+    text-align: left;
+}
