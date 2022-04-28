@@ -14,5 +14,30 @@
 
 .mainPrez p {
     padding-top: 20px;
-    text-align: left;
+    text-align: justify;
+}
+
+.pageTitle {
+    display: inline;
+    padding-right: 10px;
+    border-right: .40em solid rgb(49, 49, 49);
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(49, 49, 49); }
+  }
+
+@media only screen and (max-width: 600px) {
+    .mainPrez {
+        width: 70%;
+        margin: 40px auto;
+    }
+
+    .whoamiImg {
+        width: 70%;
+    }    
 }
