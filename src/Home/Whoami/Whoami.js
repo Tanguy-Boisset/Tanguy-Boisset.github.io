@@ -4,7 +4,7 @@ import {Row, Col, Container} from 'react-bootstrap';
 function Whoami() {
     return (
       <div className="Whoami">
-        <h1 className='pageTitle'>Whoami</h1>
+        <h2 className='pageTitle'>Whoami</h2>
         <Container className='mainPrez'>
             <Row>
                 <Col sm={8}>

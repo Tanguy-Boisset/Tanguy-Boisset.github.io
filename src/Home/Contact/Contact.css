@@ -1,0 +1,13 @@
+.contactDiv {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+}
+
+.contactDiv h2 {
+    margin: 20px;
+}
+
+.group {
+    width: 90%;
+    margin-left: 5%;
+}
