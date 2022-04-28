@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.edc66b6f.css",
-    "main.js": "/static/js/main.ee54684f.js",
+    "main.js": "/static/js/main.113762b4.js",
     "static/media/wip.png": "/static/media/wip.cee6e35530208eca654b.png",
     "static/media/baguette-pp.jpg": "/static/media/baguette-pp.86f6326fc8bd12f9798a.jpg",
     "index.html": "/index.html",
     "main.edc66b6f.css.map": "/static/css/main.edc66b6f.css.map",
-    "main.ee54684f.js.map": "/static/js/main.ee54684f.js.map"
+    "main.113762b4.js.map": "/static/js/main.113762b4.js.map"
   },
   "entrypoints": [
     "static/css/main.edc66b6f.css",
-    "static/js/main.ee54684f.js"
+    "static/js/main.113762b4.js"
   ]
 }
