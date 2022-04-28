@@ -11,9 +11,9 @@ function MyNavbar() {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
         <Nav.Link href="/">Whoami</Nav.Link>
-        <Nav.Link href="/cv">CV</Nav.Link>
-        <Nav.Link href="/writeups">Writeups</Nav.Link>
-        <Nav.Link href="/projects">Projects</Nav.Link>
+        <Nav.Link href="/#/cv">CV</Nav.Link>
+        <Nav.Link href="/#/writeups">Writeups</Nav.Link>
+        <Nav.Link href="/#/projects">Projects</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
