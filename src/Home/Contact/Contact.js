@@ -1,76 +1,61 @@
 import './Contact.css'
-import {Card, CardGroup} from 'react-bootstrap';
+import {Card, CardGroup, Button} from 'react-bootstrap';
 
 function Contact() {
     return (
       <div className='contactDiv'>
         <h2>Contact</h2>
+        <br />
         <CardGroup className='group'>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card className='card'>
+            <Card.Img className="cardImg" variant="top" alt='logo LinkedIn' src={require("./icones/linkedin.png")} />
             <Card.Body>
               <Card.Title>LinkedIn</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+                Mon profil LinkedIn personnel. Je publie rarement.
               </Card.Text>
+              <Button href='https://www.linkedin.com/in/tanguy-boisset/' target='_blank' className='cardButton'>Ouvrir dans un nouvel onglet</Button>
             </Card.Body>
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card className='card'>
+            <Card.Img className="cardImg" variant="top" alt='logo Twitter' src={require("./icones/twitter.png")} />
             <Card.Body>
-              <Card.Title>LinkedIn</Card.Title>
+              <Card.Title>Twitter</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+                Mon compte Twitter où je publie de temps en temps.
               </Card.Text>
+              <Button href='https://twitter.com/Sopalinge' target='_blank' className='cardButton'>Ouvrir dans un nouvel onglet</Button>
             </Card.Body>
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card className='card'>
+            <Card.Img className="cardImg" variant="top" alt='logo GitHub' src={require("./icones/github.png")} />
             <Card.Body>
-              <Card.Title>LinkedIn</Card.Title>
+              <Card.Title>GitHub</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
+                Différents projets académiques, professionnels ou personnels.
               </Card.Text>
+              <Button href='https://github.com/Tanguy-Boisset' target='_blank' className='cardButton'>Ouvrir dans un nouvel onglet</Button>
             </Card.Body>
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card className='card'>
+            <Card.Img className="cardImg" variant="top" alt='logo RootMe' src={require("./icones/rootme.png")} />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>RootMe</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to additional
-                content.{' '}
+                Ma principale plateforme de tryhard. Actuellement à 4500+ pts et top 1000.
               </Card.Text>
+              <Button href='https://www.root-me.org/Sopalinge' target='_blank' className='cardButton'>Ouvrir dans un nouvel onglet</Button>
             </Card.Body>
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card className='card'>
+            <Card.Img className="cardImg" variant="top" alt='logo HackTheBox' src={require("./icones/hackthebox.png")} />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>HackTheBox</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This card has even longer content than the first to
-                show that equal height action.
+                Je ne m'y suis pas encore mis sérieusement mais ça arrive :)
               </Card.Text>
+              <Button href='https://app.hackthebox.com/users/956700' target='_blank' className='cardButton'>Ouvrir dans un nouvel onglet</Button>
             </Card.Body>
-            <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer>
           </Card>
         </CardGroup>
       </div>

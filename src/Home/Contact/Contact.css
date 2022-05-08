@@ -11,3 +11,33 @@
     width: 90%;
     margin-left: 5%;
 }
+
+.card {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+}
+
+.cardImg {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardButton {
+    border-color: grey;
+    background-color: grey;
+}
+
+.cardButton:hover {
+    background-color: white;
+    border-color: grey;
+    color: grey;
+}
+
+.cardButton:focus {
+    background-color: white;
+    border-color: grey;
+    color: grey;
+}
