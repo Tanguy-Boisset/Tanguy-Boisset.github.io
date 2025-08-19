@@ -1,0 +1,27 @@
+blockquote.alert {
+  border-left: 6px solid;
+  padding: 1em 1.2em;
+  margin: 1.2em 0;
+  border-radius: 6px;
+  background-clip: padding-box;
+}
+
+blockquote.alert-caution {
+  border-color: #d97706;
+  background-color: rgba(217, 119, 6, 0.1);
+}
+
+blockquote.alert-note {
+  border-color: #2563eb;
+  background-color: rgba(37, 99, 235, 0.1);
+}
+
+blockquote.alert-tip {
+  border-color: #059496; 
+  background-color: rgba(5, 150, 150, 0.1);
+}
+
+blockquote.alert-danger {
+  border-color: #dc2626;
+  background-color: rgba(220, 38, 38, 0.1);
+}

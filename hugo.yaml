@@ -1,0 +1,22 @@
+baseURL: http://172.21.114.187:1313/
+languageCode: en-us
+title: Sopalinge
+theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: Yet another infosec blog 🤠
+    Content: Hi, I'm Sopalinge 👋 ! I'm an humble pentester from France 🇫🇷, known as Tanguy Boisset in the real world and currently working for Klee Group.
+  socialIcons:
+    - name: "x"
+      url: "https://x.com/Sopalinge"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/tanguy-boisset"
+    - name: "github"
+      url: "https://github.com/Tanguy-Boisset"
+    - name: "rootme"
+      url: "https://www.root-me.org/Sopalinge"
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  ShowCodeCopyButtons: true
