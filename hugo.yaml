@@ -3,6 +3,10 @@ languageCode: en-us
 title: Sopalinge
 theme: ["PaperMod"]
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 params:
   homeInfoParams:
     Title: Yet another infosec blog 🤠
